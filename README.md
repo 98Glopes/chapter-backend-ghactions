@@ -11,7 +11,9 @@ Aplicação python para ser usada de exemplo no Chapter de Back End
 
 ## Comando para executar
 Para executar o App Flask basta executar o comando:
+
 `flask run`
+
 Vale lembrar que estamos usando um servidor de debug que não é indicado para um ambiente de produção.
 
 ## Comando para executar os testes unitários
@@ -22,4 +24,5 @@ Vale lembrar que estamos usando um servidor de debug que não é indicado para u
 
 ## Comando para executar um container com a imagem gerada
 `docker run -env FLASK_APP=app -p 8000:8000 chapter_app`
+
 Verificar caso seja escolhida outra porta para fazer o deploy do App Flask
