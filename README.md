@@ -22,4 +22,4 @@ Vale lembrar que estamos usando um servidor de debug que não é indicado para u
 
 ## Comando para executar um container com a imagem gerada
 `docker run -env FLASK_APP=app -p 8000:8000 chapter_app`
-Verificar caso
+Verificar caso seja escolhida outra porta para fazer o deploy do App Flask
