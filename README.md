@@ -3,8 +3,8 @@ Aplicação python para ser usada de exemplo no Chapter de Back End
 
 
 ## Variaveis de ambiente
-*`FLASK_APP`: Nome do módulo com o app flask, no nosso caso o valor é `app`.
-*`PORT`: Porta onde o App Flask será executado, no nosso caso esse valor é opcionao e o padrão é `8000`.
+* `FLASK_APP`: Nome do módulo com o app flask, no nosso caso o valor é `app`.
+* `PORT`: Porta onde o App Flask será executado, no nosso caso esse valor é opcionao e o padrão é `8000`.
 
 ## Comando para instalar as dependencias:
 `pip install -r requirements.txt`
