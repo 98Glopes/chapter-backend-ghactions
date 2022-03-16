@@ -62,5 +62,6 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           push: true
+          context: .
           tags: chapter_backend/chapter_app:${{ github.sha }}
          
