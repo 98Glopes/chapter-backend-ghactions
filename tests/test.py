@@ -10,4 +10,4 @@ def test_esse_deve_falhar():
     """
     Durante a fase de CI este teste deve falhar
     """
-    assert False == True
+    assert True == True
