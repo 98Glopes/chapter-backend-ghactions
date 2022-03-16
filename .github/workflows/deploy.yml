@@ -3,11 +3,11 @@ name: Deploy
 # Controls when the workflow will run
 on:
   # Exemples de Eventos que o workflow pode escutar
-  #push:
-  #  branches: [ main ]
+  push:
+    branches: [ main ]
   #pull_request:
   #  branches: [ main ]
-
+  
   # Evento para disparar manualmente o Workflow
   workflow_dispatch:
 
