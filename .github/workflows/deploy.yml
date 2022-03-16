@@ -50,7 +50,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "chapter-back-end" #Must be unique in Heroku
           heroku_email: "gabriel.lopes@outlook.com"
-          env_file: ".env"
         env:
           FLASK_APP: app
         
