@@ -60,5 +60,5 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           push: true
-          tags: chapter_app:latest
+          tags: chapter_app
          
