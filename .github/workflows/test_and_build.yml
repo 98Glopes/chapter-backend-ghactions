@@ -62,5 +62,5 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           push: true
-          tags: 98glopes/chapter_app
+          tags: 98glopes/chapter_app:${{ gh.sha }}
          
