@@ -60,5 +60,5 @@ jobs:
         with:
           push: true
           context: .
-          tags: chapter_backend/chapter_app:${{ github.sha }}
+          tags: 98glopes/chapter_app:${{ github.sha }}
          
